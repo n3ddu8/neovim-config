@@ -3,6 +3,5 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {}
-  },
-  "postCreateCommand": "mkdir -p $HOME/.config/nvim && ln $WORKSPACE_FOLDER $HOME/.config/nvim"
+  }
 }
