@@ -4,5 +4,5 @@
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {}
   },
-  "postCreateCommand": "nix-env -iA nixpkgs.neovim"
+  "postCreateCommand": "mkdir -p $HOME/.config/nvim && ln $WORKSPACE_FOLDER $HOME/.config/nvim"
 }
